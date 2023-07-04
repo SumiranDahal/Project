@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    margin-top: 50px;
+    border: 3px solid mediumslateblue;
+border-radius: 5px;
+background-color:purple;
+margin-left: 20px;
+margin-right: 20px;
+}
+.form{
+    padding-left: 130px;
+    display:grid;
+    grid-template-columns: 10%;
+    margin-top: 50px;
+}
+
+.info{
+    font-family: "poppins", sans-serif;
+    font-size: 25px;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.container #name{
+    margin: 10px;
+    padding: 5px;
+    padding-right: 100px;
+    border: none;
+    border-radius: 6px;
+}
+.container #contact{
+    margin: 10px;
+    padding: 5px;
+    padding-right: 100px;
+    border: none;
+    border-radius: 6px;
+}
+.container #email{
+    margin: 10px;
+    padding: 5px;
+    padding-right: 100px;
+    border: none;
+    border-radius: 6px;
+}
+.container #btn{
+    border-radius: 6px;
+border: none;
+color: white;
+font-size: 16px;
+    margin: 20px;
+    padding: 2px;
+    padding-right: 40px;
+    background-color:violet;
+    box-shadow: 0px 10px 10px black;
+}
+.container #btn:hover{
+    color: red;
+    cursor: pointer;
+}
+h1{
+    color: blueviolet;
+    text-align: center;
+}
+    </style>
+</head>
+<body>
+    <h1>Register Here</h1>
+    <div class="container">
+            <div class="form">
+        <form action="">
+            <input type="text" id="name" placeholder="Enter your Name">
+            <input type="tel" id="contact" placeholder="Enter your Contact no">
+            <input type="email" id="email" placeholder="Enter your Email">
+            <input type="submit" id="btn" value="Start Learning">
+        </form>
+    </div>
+    <p class="info">Try Our Free Courses Today at zero Risk,no credit card is required</p>
+    </div>
+</body>
+</html>
